@@ -1,0 +1,16 @@
+- name: Morning Routine
+  clips:
+      - url:    https://www.youtube.com/watch?v=QEKnXcPCaRg
+        start:  '0:30'
+        end:    '0:50'
+        name:   QEKnXcPCaRg_0:30_0:50
+      - url:    https://www.youtube.com/watch?v=QEKnXcPCaRg
+        start:  '2:30'
+        end:    '2:50'
+        name:   QEKnXcPCaRg_2:30_2:50
+- name: Daybreak
+  clips:
+      - url:    https://www.youtube.com/watch?v=QEKnXcPCaRg
+        start:  '3:13'
+        end:    '3:24'
+        name:   QEKnXcPCaRg_3:12_3:24

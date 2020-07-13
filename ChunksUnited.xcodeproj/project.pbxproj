@@ -3,27 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9236AAFC24BCADCD00AD6B6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AAFB24BCADCD00AD6B6E /* AppDelegate.swift */; };
 		9236AAFE24BCADCD00AD6B6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AAFD24BCADCD00AD6B6E /* SceneDelegate.swift */; };
-		9236AB0024BCADCD00AD6B6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AAFF24BCADCD00AD6B6E /* ContentView.swift */; };
 		9236AB0224BCADD000AD6B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9236AB0124BCADD000AD6B6E /* Assets.xcassets */; };
 		9236AB0524BCADD000AD6B6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9236AB0424BCADD000AD6B6E /* Preview Assets.xcassets */; };
 		9236AB0824BCADD000AD6B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9236AB0624BCADD000AD6B6E /* LaunchScreen.storyboard */; };
+		9236AB1524BCBE7200AD6B6E /* playlists.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9236AB1424BCBE7200AD6B6E /* playlists.yml */; };
+		9236AB1724BCBE8A00AD6B6E /* Videos in Resources */ = {isa = PBXBuildFile; fileRef = 9236AB1624BCBE8A00AD6B6E /* Videos */; };
+		9236AB1B24BCC4F200AD6B6E /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = 9236AB1A24BCC4F200AD6B6E /* Yams */; };
+		9236AB1E24BCC55700AD6B6E /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AB1D24BCC55700AD6B6E /* Playlist.swift */; };
+		9236AB2024BCC55F00AD6B6E /* Clip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AB1F24BCC55F00AD6B6E /* Clip.swift */; };
+		9236AB2324BD015700AD6B6E /* PlaylistsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AB2224BD015700AD6B6E /* PlaylistsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9236AAF824BCADCD00AD6B6E /* ChunksUnited.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChunksUnited.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9236AAFB24BCADCD00AD6B6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9236AAFD24BCADCD00AD6B6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9236AAFF24BCADCD00AD6B6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9236AB0124BCADD000AD6B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9236AB0424BCADD000AD6B6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9236AB0724BCADD000AD6B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9236AB0924BCADD000AD6B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9236AB1424BCBE7200AD6B6E /* playlists.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = playlists.yml; sourceTree = "<group>"; };
+		9236AB1624BCBE8A00AD6B6E /* Videos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Videos; sourceTree = "<group>"; };
+		9236AB1D24BCC55700AD6B6E /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		9236AB1F24BCC55F00AD6B6E /* Clip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clip.swift; sourceTree = "<group>"; };
+		9236AB2224BD015700AD6B6E /* PlaylistsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9236AB1B24BCC4F200AD6B6E /* Yams in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +66,11 @@
 		9236AAFA24BCADCD00AD6B6E /* ChunksUnited */ = {
 			isa = PBXGroup;
 			children = (
+				9236AB2124BD014100AD6B6E /* Screens */,
+				9236AB1C24BCC54F00AD6B6E /* Models */,
+				9236AB1224BCBE7200AD6B6E /* Resources */,
 				9236AAFB24BCADCD00AD6B6E /* AppDelegate.swift */,
 				9236AAFD24BCADCD00AD6B6E /* SceneDelegate.swift */,
-				9236AAFF24BCADCD00AD6B6E /* ContentView.swift */,
 				9236AB0124BCADD000AD6B6E /* Assets.xcassets */,
 				9236AB0624BCADD000AD6B6E /* LaunchScreen.storyboard */,
 				9236AB0924BCADD000AD6B6E /* Info.plist */,
@@ -73,6 +85,40 @@
 				9236AB0424BCADD000AD6B6E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9236AB1224BCBE7200AD6B6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9236AB1624BCBE8A00AD6B6E /* Videos */,
+				9236AB1424BCBE7200AD6B6E /* playlists.yml */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9236AB1C24BCC54F00AD6B6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9236AB1D24BCC55700AD6B6E /* Playlist.swift */,
+				9236AB1F24BCC55F00AD6B6E /* Clip.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9236AB2124BD014100AD6B6E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9236AB2824BD017E00AD6B6E /* Playlists */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9236AB2824BD017E00AD6B6E /* Playlists */ = {
+			isa = PBXGroup;
+			children = (
+				9236AB2224BD015700AD6B6E /* PlaylistsScreen.swift */,
+			);
+			path = Playlists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +138,9 @@
 			dependencies = (
 			);
 			name = ChunksUnited;
+			packageProductDependencies = (
+				9236AB1A24BCC4F200AD6B6E /* Yams */,
+			);
 			productName = ChunksUnited;
 			productReference = 9236AAF824BCADCD00AD6B6E /* ChunksUnited.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +169,9 @@
 				Base,
 			);
 			mainGroup = 9236AAEF24BCADCD00AD6B6E;
+			packageReferences = (
+				9236AB1924BCC4F100AD6B6E /* XCRemoteSwiftPackageReference "Yams" */,
+			);
 			productRefGroup = 9236AAF924BCADCD00AD6B6E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,8 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9236AB1724BCBE8A00AD6B6E /* Videos in Resources */,
 				9236AB0824BCADD000AD6B6E /* LaunchScreen.storyboard in Resources */,
 				9236AB0524BCADD000AD6B6E /* Preview Assets.xcassets in Resources */,
+				9236AB1524BCBE7200AD6B6E /* playlists.yml in Resources */,
 				9236AB0224BCADD000AD6B6E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,8 +223,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9236AAFC24BCADCD00AD6B6E /* AppDelegate.swift in Sources */,
+				9236AB2324BD015700AD6B6E /* PlaylistsScreen.swift in Sources */,
 				9236AAFE24BCADCD00AD6B6E /* SceneDelegate.swift in Sources */,
-				9236AB0024BCADCD00AD6B6E /* ContentView.swift in Sources */,
+				9236AB2024BCC55F00AD6B6E /* Clip.swift in Sources */,
+				9236AB1E24BCC55700AD6B6E /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +420,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9236AB1924BCC4F100AD6B6E /* XCRemoteSwiftPackageReference "Yams" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jpsim/Yams.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9236AB1A24BCC4F200AD6B6E /* Yams */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9236AB1924BCC4F100AD6B6E /* XCRemoteSwiftPackageReference "Yams" */;
+			productName = Yams;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9236AAF024BCADCD00AD6B6E /* Project object */;
 }
