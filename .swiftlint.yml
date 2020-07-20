@@ -27,7 +27,7 @@ identifier_name:
     - url
 
 vertical_whitespace:
-  max_empty_lines: 2 
+  max_empty_lines: 2
 
 disabled_rules:
   - statement_position

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		921A500C24C5D82D0002E78C /* PlaylistMakingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921A500B24C5D82D0002E78C /* PlaylistMakingService.swift */; };
 		9236AAFC24BCADCD00AD6B6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AAFB24BCADCD00AD6B6E /* AppDelegate.swift */; };
 		9236AAFE24BCADCD00AD6B6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AAFD24BCADCD00AD6B6E /* SceneDelegate.swift */; };
 		9236AB0224BCADD000AD6B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9236AB0124BCADD000AD6B6E /* Assets.xcassets */; };
@@ -17,10 +18,15 @@
 		9236AB1B24BCC4F200AD6B6E /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = 9236AB1A24BCC4F200AD6B6E /* Yams */; };
 		9236AB1E24BCC55700AD6B6E /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AB1D24BCC55700AD6B6E /* Playlist.swift */; };
 		9236AB2024BCC55F00AD6B6E /* Clip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AB1F24BCC55F00AD6B6E /* Clip.swift */; };
-		9236AB2324BD015700AD6B6E /* PlaylistsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AB2224BD015700AD6B6E /* PlaylistsScreen.swift */; };
+		9249DC0724C31B60007E8F78 /* PlaylistsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DC0624C31B60007E8F78 /* PlaylistsScreen.swift */; };
+		925C83AE24BF4E8C00F0744C /* Thumbnails in Resources */ = {isa = PBXBuildFile; fileRef = 925C83AD24BF4E8C00F0744C /* Thumbnails */; };
+		925C83B324BF5CF100F0744C /* ClipRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925C83B224BF5CF100F0744C /* ClipRow.swift */; };
+		925C83BC24BF649300F0744C /* PlayerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925C83BB24BF649300F0744C /* PlayerScreen.swift */; };
+		925C83BE24C0BB8700F0744C /* PlaylistSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925C83BD24C0BB8700F0744C /* PlaylistSectionHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		921A500B24C5D82D0002E78C /* PlaylistMakingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMakingService.swift; sourceTree = "<group>"; };
 		9236AAF824BCADCD00AD6B6E /* ChunksUnited.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChunksUnited.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9236AAFB24BCADCD00AD6B6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9236AAFD24BCADCD00AD6B6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,7 +38,11 @@
 		9236AB1624BCBE8A00AD6B6E /* Videos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Videos; sourceTree = "<group>"; };
 		9236AB1D24BCC55700AD6B6E /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 		9236AB1F24BCC55F00AD6B6E /* Clip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clip.swift; sourceTree = "<group>"; };
-		9236AB2224BD015700AD6B6E /* PlaylistsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsScreen.swift; sourceTree = "<group>"; };
+		9249DC0624C31B60007E8F78 /* PlaylistsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistsScreen.swift; sourceTree = "<group>"; };
+		925C83AD24BF4E8C00F0744C /* Thumbnails */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Thumbnails; sourceTree = "<group>"; };
+		925C83B224BF5CF100F0744C /* ClipRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipRow.swift; sourceTree = "<group>"; };
+		925C83BB24BF649300F0744C /* PlayerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScreen.swift; sourceTree = "<group>"; };
+		925C83BD24C0BB8700F0744C /* PlaylistSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistSectionHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		921A500A24C5D81E0002E78C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				921A500B24C5D82D0002E78C /* PlaylistMakingService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		9236AAEF24BCADCD00AD6B6E = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +84,7 @@
 		9236AAFA24BCADCD00AD6B6E /* ChunksUnited */ = {
 			isa = PBXGroup;
 			children = (
+				921A500A24C5D81E0002E78C /* Services */,
 				9236AB2124BD014100AD6B6E /* Screens */,
 				9236AB1C24BCC54F00AD6B6E /* Models */,
 				9236AB1224BCBE7200AD6B6E /* Resources */,
@@ -90,6 +109,7 @@
 		9236AB1224BCBE7200AD6B6E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				925C83AD24BF4E8C00F0744C /* Thumbnails */,
 				9236AB1624BCBE8A00AD6B6E /* Videos */,
 				9236AB1424BCBE7200AD6B6E /* playlists.yml */,
 			);
@@ -108,6 +128,7 @@
 		9236AB2124BD014100AD6B6E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				925C83BA24BF648200F0744C /* Player */,
 				9236AB2824BD017E00AD6B6E /* Playlists */,
 			);
 			path = Screens;
@@ -116,9 +137,27 @@
 		9236AB2824BD017E00AD6B6E /* Playlists */ = {
 			isa = PBXGroup;
 			children = (
-				9236AB2224BD015700AD6B6E /* PlaylistsScreen.swift */,
+				9249DC0624C31B60007E8F78 /* PlaylistsScreen.swift */,
+				925C83B124BF5CE200F0744C /* Components */,
 			);
 			path = Playlists;
+			sourceTree = "<group>";
+		};
+		925C83B124BF5CE200F0744C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				925C83B224BF5CF100F0744C /* ClipRow.swift */,
+				925C83BD24C0BB8700F0744C /* PlaylistSectionHeader.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		925C83BA24BF648200F0744C /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				925C83BB24BF649300F0744C /* PlayerScreen.swift */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +228,7 @@
 				9236AB1724BCBE8A00AD6B6E /* Videos in Resources */,
 				9236AB0824BCADD000AD6B6E /* LaunchScreen.storyboard in Resources */,
 				9236AB0524BCADD000AD6B6E /* Preview Assets.xcassets in Resources */,
+				925C83AE24BF4E8C00F0744C /* Thumbnails in Resources */,
 				9236AB1524BCBE7200AD6B6E /* playlists.yml in Resources */,
 				9236AB0224BCADD000AD6B6E /* Assets.xcassets in Resources */,
 			);
@@ -222,9 +262,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925C83B324BF5CF100F0744C /* ClipRow.swift in Sources */,
+				925C83BE24C0BB8700F0744C /* PlaylistSectionHeader.swift in Sources */,
 				9236AAFC24BCADCD00AD6B6E /* AppDelegate.swift in Sources */,
-				9236AB2324BD015700AD6B6E /* PlaylistsScreen.swift in Sources */,
+				921A500C24C5D82D0002E78C /* PlaylistMakingService.swift in Sources */,
 				9236AAFE24BCADCD00AD6B6E /* SceneDelegate.swift in Sources */,
+				925C83BC24BF649300F0744C /* PlayerScreen.swift in Sources */,
+				9249DC0724C31B60007E8F78 /* PlaylistsScreen.swift in Sources */,
 				9236AB2024BCC55F00AD6B6E /* Clip.swift in Sources */,
 				9236AB1E24BCC55700AD6B6E /* Playlist.swift in Sources */,
 			);
@@ -294,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

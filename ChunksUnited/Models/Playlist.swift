@@ -9,7 +9,11 @@
 import Foundation
 import Yams
 
-struct Playlist: Decodable {
+struct Playlist: Decodable, Identifiable {
+    var id: String {
+        return name
+    }
+    
     let name: String
     let clips: [Clip]
     

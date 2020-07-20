@@ -7,18 +7,36 @@
 //
 
 import Foundation
+import AVFoundation
 
-struct Clip: Decodable {
-    let url: String
+struct Clip: Decodable, Identifiable {
+    var id: String {
+        return fileName
+    }
+    
+    let url: URL
+    let name: String
     let start: String
     let end: String
-    let name: String
     
-    var localUrl: URL? {
-        guard let path = Bundle.main.path(forResource: name, ofType: "mp4", inDirectory: "Videos") else {
-            return nil
-        }
-        
-        return URL(string: path)
+    var videoUrl: URL {
+        return Bundle.main.url(forResource: fileName, withExtension: "mp4", subdirectory: "Videos")!
+    }
+    
+    var thumbnailUrl: URL {
+        return Bundle.main.url(forResource: fileName, withExtension: "png", subdirectory: "Thumbnails")!
+    }
+    
+    var thumbnailData: Data {
+        return try! Data(contentsOf: thumbnailUrl)
+    }
+    
+    var fileName: String {
+        return "\(youtubeId)_\(start)_\(end)"
+    }
+    
+    private var youtubeId: String {
+        let params = URLComponents(url: url, resolvingAgainstBaseURL: false)!.queryItems!
+        return params.first {$0.name == "v"}!.value!
     }
 }
