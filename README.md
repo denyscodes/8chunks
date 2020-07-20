@@ -24,20 +24,26 @@ pip3 install furl
 
 ## Usage
 
-### 1. Edit playlists file at `./ChunksUnited/Resources/resources.yaml`
+1. Edit playlists file at `./ChunksUnited/Resources/resources.yaml`
 
-<img src="./screenshots/playlists_yaml.png" width="40%">
+   <img src="./screenshots/playlists_yaml.png" width="40%">
 
-### 2. Update playlists by running `update_playlists.py` script
+2. Update playlists by running `update_playlists.py` script
 
-```bash
-cd scripts
-python3 update_playlists.py
-```
+   ```bash
+   cd scripts
+   python3 update_playlists.py
+   ```
 
-### 3. Run through Xcode
+3. Run through Xcode
 
-<img src="./screenshots/playlists_ios.png" width="33%">
+   <img src="./screenshots/playlists_ios.png" width="33%">
+   <img src="./screenshots/player_ios.png" width="33%">
+
+## TODO
+
+- [ ] Setting min duration for a clip in a playlist
+- [ ] Background audio playlist
 
 ## Contributing
 
