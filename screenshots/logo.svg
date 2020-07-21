@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="484px" height="259px" viewBox="0 0 484 259" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo">
+            <g id="icon" transform="translate(168.000000, 0.000000)">
+                <circle id="oval" stroke="#A4A4B4" stroke-width="9" cx="74" cy="74" r="69.5"></circle>
+                <g id="sticks" transform="translate(47.000000, 40.000000)" fill="#A4A4B4">
+                    <rect id="Rectangle" x="0" y="0" width="16" height="68" rx="8"></rect>
+                    <rect id="Rectangle" x="38" y="0" width="16" height="68" rx="8"></rect>
+                </g>
+            </g>
+            <text id="8-chunks" font-family="Santana-Bold, Santana" font-size="98" font-weight="bold" letter-spacing="10" fill="#A4A4B4">
+                <tspan x="0" y="239">8 chunks</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

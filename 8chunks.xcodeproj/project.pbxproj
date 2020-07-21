@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		921A500C24C5D82D0002E78C /* PlaylistMakingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921A500B24C5D82D0002E78C /* PlaylistMakingService.swift */; };
+		921A501124C769360002E78C /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = 921A501024C769360002E78C /* Yams */; };
 		9236AAFC24BCADCD00AD6B6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AAFB24BCADCD00AD6B6E /* AppDelegate.swift */; };
 		9236AAFE24BCADCD00AD6B6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AAFD24BCADCD00AD6B6E /* SceneDelegate.swift */; };
 		9236AB0224BCADD000AD6B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9236AB0124BCADD000AD6B6E /* Assets.xcassets */; };
@@ -15,7 +16,6 @@
 		9236AB0824BCADD000AD6B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9236AB0624BCADD000AD6B6E /* LaunchScreen.storyboard */; };
 		9236AB1524BCBE7200AD6B6E /* playlists.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9236AB1424BCBE7200AD6B6E /* playlists.yml */; };
 		9236AB1724BCBE8A00AD6B6E /* Videos in Resources */ = {isa = PBXBuildFile; fileRef = 9236AB1624BCBE8A00AD6B6E /* Videos */; };
-		9236AB1B24BCC4F200AD6B6E /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = 9236AB1A24BCC4F200AD6B6E /* Yams */; };
 		9236AB1E24BCC55700AD6B6E /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AB1D24BCC55700AD6B6E /* Playlist.swift */; };
 		9236AB2024BCC55F00AD6B6E /* Clip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236AB1F24BCC55F00AD6B6E /* Clip.swift */; };
 		9249DC0724C31B60007E8F78 /* PlaylistsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DC0624C31B60007E8F78 /* PlaylistsScreen.swift */; };
@@ -27,7 +27,7 @@
 
 /* Begin PBXFileReference section */
 		921A500B24C5D82D0002E78C /* PlaylistMakingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMakingService.swift; sourceTree = "<group>"; };
-		9236AAF824BCADCD00AD6B6E /* ChunksUnited.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChunksUnited.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9236AAF824BCADCD00AD6B6E /* 8 chunks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8 chunks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9236AAFB24BCADCD00AD6B6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9236AAFD24BCADCD00AD6B6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9236AB0124BCADD000AD6B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9236AB1B24BCC4F200AD6B6E /* Yams in Frameworks */,
+				921A501124C769360002E78C /* Yams in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +68,7 @@
 		9236AAEF24BCADCD00AD6B6E = {
 			isa = PBXGroup;
 			children = (
-				9236AAFA24BCADCD00AD6B6E /* ChunksUnited */,
+				9236AAFA24BCADCD00AD6B6E /* 8chunks */,
 				9236AAF924BCADCD00AD6B6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,12 +76,12 @@
 		9236AAF924BCADCD00AD6B6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9236AAF824BCADCD00AD6B6E /* ChunksUnited.app */,
+				9236AAF824BCADCD00AD6B6E /* 8 chunks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9236AAFA24BCADCD00AD6B6E /* ChunksUnited */ = {
+		9236AAFA24BCADCD00AD6B6E /* 8chunks */ = {
 			isa = PBXGroup;
 			children = (
 				921A500A24C5D81E0002E78C /* Services */,
@@ -95,7 +95,7 @@
 				9236AB0924BCADD000AD6B6E /* Info.plist */,
 				9236AB0324BCADD000AD6B6E /* Preview Content */,
 			);
-			path = ChunksUnited;
+			path = 8chunks;
 			sourceTree = "<group>";
 		};
 		9236AB0324BCADD000AD6B6E /* Preview Content */ = {
@@ -163,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9236AAF724BCADCD00AD6B6E /* ChunksUnited */ = {
+		9236AAF724BCADCD00AD6B6E /* 8chunks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9236AB0C24BCADD000AD6B6E /* Build configuration list for PBXNativeTarget "ChunksUnited" */;
+			buildConfigurationList = 9236AB0C24BCADD000AD6B6E /* Build configuration list for PBXNativeTarget "8chunks" */;
 			buildPhases = (
 				9236AAF424BCADCD00AD6B6E /* Sources */,
 				9236AAF524BCADCD00AD6B6E /* Frameworks */,
@@ -176,12 +176,12 @@
 			);
 			dependencies = (
 			);
-			name = ChunksUnited;
+			name = 8chunks;
 			packageProductDependencies = (
-				9236AB1A24BCC4F200AD6B6E /* Yams */,
+				921A501024C769360002E78C /* Yams */,
 			);
 			productName = ChunksUnited;
-			productReference = 9236AAF824BCADCD00AD6B6E /* ChunksUnited.app */;
+			productReference = 9236AAF824BCADCD00AD6B6E /* 8 chunks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9236AAF324BCADCD00AD6B6E /* Build configuration list for PBXProject "ChunksUnited" */;
+			buildConfigurationList = 9236AAF324BCADCD00AD6B6E /* Build configuration list for PBXProject "8chunks" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -209,13 +209,13 @@
 			);
 			mainGroup = 9236AAEF24BCADCD00AD6B6E;
 			packageReferences = (
-				9236AB1924BCC4F100AD6B6E /* XCRemoteSwiftPackageReference "Yams" */,
+				921A500F24C769360002E78C /* XCRemoteSwiftPackageReference "Yams" */,
 			);
 			productRefGroup = 9236AAF924BCADCD00AD6B6E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9236AAF724BCADCD00AD6B6E /* ChunksUnited */,
+				9236AAF724BCADCD00AD6B6E /* 8chunks */,
 			);
 		};
 /* End PBXProject section */
@@ -407,16 +407,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ChunksUnited/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"8chunks/Preview Content\"";
 				DEVELOPMENT_TEAM = 3TBW9CTRQ4;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ChunksUnited/Info.plist;
+				INFOPLIST_FILE = 8chunks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.denisov.ChunksUnited;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisov.8chunks;
+				PRODUCT_NAME = "8 chunks";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -427,16 +427,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ChunksUnited/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"8chunks/Preview Content\"";
 				DEVELOPMENT_TEAM = 3TBW9CTRQ4;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ChunksUnited/Info.plist;
+				INFOPLIST_FILE = 8chunks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.denisov.ChunksUnited;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisov.8chunks;
+				PRODUCT_NAME = "8 chunks";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9236AAF324BCADCD00AD6B6E /* Build configuration list for PBXProject "ChunksUnited" */ = {
+		9236AAF324BCADCD00AD6B6E /* Build configuration list for PBXProject "8chunks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9236AB0A24BCADD000AD6B6E /* Debug */,
@@ -454,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9236AB0C24BCADD000AD6B6E /* Build configuration list for PBXNativeTarget "ChunksUnited" */ = {
+		9236AB0C24BCADD000AD6B6E /* Build configuration list for PBXNativeTarget "8chunks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9236AB0D24BCADD000AD6B6E /* Debug */,
@@ -466,7 +466,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9236AB1924BCC4F100AD6B6E /* XCRemoteSwiftPackageReference "Yams" */ = {
+		921A500F24C769360002E78C /* XCRemoteSwiftPackageReference "Yams" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jpsim/Yams.git";
 			requirement = {
@@ -477,9 +477,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9236AB1A24BCC4F200AD6B6E /* Yams */ = {
+		921A501024C769360002E78C /* Yams */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9236AB1924BCC4F100AD6B6E /* XCRemoteSwiftPackageReference "Yams" */;
+			package = 921A500F24C769360002E78C /* XCRemoteSwiftPackageReference "Yams" */;
 			productName = Yams;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -67,15 +67,11 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
-# Code Injection
-#
-# After new code Injection tools there's a generated folder /iOSInjectionProject
-# https://github.com/johnno1962/injectionforxcode
 
-iOSInjectionProject/.DS_Store
+.DS_Store
 
 
 *.generated.swift
 
-ChunksUnited/Resources/Videos
-ChunksUnited/Resources/Thumbnails
+8chunks/Resources/Videos/
+8chunks/Resources/Thumbnails/

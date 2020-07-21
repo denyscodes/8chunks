@@ -1,6 +1,6 @@
 //
 //  ClipRow.swift
-//  ChunksUnited
+//  8chunks
 //
 //  Created by Denis on 7/15/20.
 //  Copyright © 2020 Denis. All rights reserved.

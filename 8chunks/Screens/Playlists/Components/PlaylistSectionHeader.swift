@@ -1,6 +1,6 @@
 //
 //  PlaylistSectionHeader.swift
-//  ChunksUnited
+//  8chunks
 //
 //  Created by Denis on 7/16/20.
 //  Copyright © 2020 Denis. All rights reserved.
